@@ -290,7 +290,7 @@
             <div class="footer-adress">
                 <a class="footer-logo link" href="./index.html" target="_parent"><span
                         class="logo1">Web</span>Studio</a>
-                <address>
+                <address class="block-address">
                     <p class="address">г. Киев, пр-т Леси Украинки, 26</p>
                     <ul class="footer-contacts list">
                         <li class="mail">
@@ -335,7 +335,8 @@
                     <li class="subscribe">
                         <form class="subscribe-form">
                             <label class="label" for="subscribe-e-mail"></label>
-                            <input type="email" name="subscribe-e-mail" id="subscribe-e-mail" placeholder="E-mail">
+                            <input class="input" type="email" name="subscribe-e-mail" id="subscribe-e-mail"
+                                placeholder="E-mail">
                             <button class="sub-button" type="submit">Подписаться
                                 <svg class="icon" width="24px" height="24px">
                                     <use href="./images/icons.svg#icon-send"></use>
@@ -355,9 +356,7 @@
                 </svg>
             </button>
             <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
-
             <form class="form" autocomplete="on">
-
                 <div class="form-field">
                     <label for="name" class=form-label>Имя</label>
                     <div class="modal-position">
@@ -367,7 +366,6 @@
                         </svg>
                     </div>
                 </div>
-
                 <div class="form-field">
                     <label for="tel" class=form-label>Телефон</label>
                     <div class="modal-position">
@@ -375,10 +373,8 @@
                         <svg class="modal-icon" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-phone"></use>
                         </svg>
-
                     </div>
                 </div>
-
                 <div class="form-field">
                     <label for="email" class=form-label>Почта</label>
                     <div class="modal-position">
@@ -386,15 +382,12 @@
                         <svg class="modal-icon" width="18px" height="18px">
                             <use href="./images/icons.svg#icon-email"></use>
                         </svg>
-
                     </div>
                 </div>
-
                 <div class="form-textarea">
                     <label for="comment" class="form-label">Комментарий</label>
                     <textarea class="textarea-input" name="comment" id="comment" placeholder="Введите текст"></textarea>
                 </div>
-
                 <div class="policy">
                     <input type="checkbox" id="policy">
                     <label for="policy" class="policy-input">Соглашаюсь с рассылкой и принимаю <a href="">Условия
@@ -402,11 +395,7 @@
                     </input>
                 </div>
                 <button class="button-submit" type="submit">Отправить</button>
-
             </form>
-
-
-
         </div>
     </div>
     <script src="./js/modal.js"></script>

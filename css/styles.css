@@ -693,9 +693,13 @@ body {
     color: var(--footer-text);
 }
 
+.block-address {
+min-width: 231px;
+}
+
 .footer .address {
     margin-bottom: 9px;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -788,7 +792,7 @@ body {
     align-items: center;
 }
 
-.subscribe input {
+.subscribe .input {
     height: 50px;
     width: 100%;
     margin-right: 12px;
