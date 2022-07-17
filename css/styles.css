@@ -695,6 +695,7 @@ body {
 
 .footer .address {
     margin-bottom: 9px;
+    padding-right: 15px;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -935,7 +936,7 @@ body {
 
 .modal-position:hover .modal-icon,
 .modal-position:focus .modal-icon,
-.form-input:focus-visible+.modal-icon {
+.form-input:focus-visible + .modal-icon {
     fill: var(--accent);
 }
 
