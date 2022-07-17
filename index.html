@@ -355,44 +355,41 @@
                 </svg>
             </button>
             <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+
             <form class="form" autocomplete="on">
+
                 <div class="form-field">
-                    <label for="name">Имя</label>
-                    <svg class="svg-icon" width="12px" height="12px">
-                        <use href="./images/icons.svg#icon-person"></use>
-                    </svg>
-                    <input class="input" type="text" name="name" id="name">
+                    <label for="name" class=form-label>Имя</label>
+                    <input type="text" id="name" class="form-input">
                 </div>
 
-                <div class="form-field phone">
-                    <label for="phone">Телефон</label>
-                    <svg class="svg-icon" width="12px" height="12px">
-                        <use href="./images/icons.svg#icon-phone"></use>
-                    </svg>
-                    <input class="input" type="tel" name="phone" id="phone">
+                <div class="form-field">
+                    <label for="tel" class=form-label>Телефон</label>
+                    <input type="tel" id="tel" class="form-input">
                 </div>
 
-                <div class="form-field email">
-                    <label for="mail">Почта</label>
-                    <svg class="svg-icon" width="12px" height="12px">
-                        <use href="./images/icons.svg#icon-email"></use>
-                    </svg>
-                    <input class="input" type="email" name="mail" id="mail">
+                <div class="form-field">
+                    <label for="email" class=form-label>Почта</label>
+                    <input type="email" id="email" class="form-input">
                 </div>
 
-                <div class="form-field comment">
-                    <label for="comment">Комментарий</label>
-                    <textarea class="textarea" name="comment" rows="10" id="comment"
-                        placeholder="Введите текст"></textarea>
+                <div class="form-textarea">
+                    <label for="comment" class="form-label">Комментарий</label>
+                    <textarea class="textarea-input" name="comment" id="comment" placeholder="Введите текст"></textarea>
                 </div>
 
-                <div class="check">
-                    <input class="checkbox" type="checkbox" name="policy" value="" id="policy">
-                    <label for="policy">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+                <div class="policy">
+                    <input type="checkbox" id="policy">
+                    <label for="policy" class="policy-input">Соглашаюсь с рассылкой и принимаю <a href="">Условия
+                            договора</a></label>
+                    </input>
                 </div>
-                <button class="submit" type="submit">Отправить</button>
+                <button class="button-submit" type="submit">Отправить</button>
 
             </form>
+
+
+
         </div>
     </div>
     <script src="./js/modal.js"></script>
