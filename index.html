@@ -334,11 +334,16 @@
                 <ul class="subscribe">
                     <li class="subscribe-form">
                         <form>
+                            <label class="label" for="subscribe-e-mail"></label>
                             <input type="text" name="subscribe-e-mail" id="subscribe-e-mail" placeholder="E-mail">
                         </form>
                     </li>
                     <li class="subscribe-button">
-                        <button class="sub-button" type="submit">Подписаться</button>
+                        <button class="sub-button" type="submit">Подписаться
+                            <svg class="icon" width="24px" height="24px">
+                                <use href="./images/icons.svg#icon-send"></use>
+                            </svg>
+                        </button>
                     </li>
                 </ul>
             </div>
@@ -355,26 +360,36 @@
             <form class="form" autocomplete="on">
                 <div class="form-field">
                     <label for="name">Имя</label>
+                    <svg class="svg-icon" width="12px" height="12px">
+                        <use href="./images/icons.svg#icon-person"></use>
+                    </svg>
                     <input class="input" type="text" name="name" id="name">
                 </div>
 
-                <div class="form-field">
+                <div class="form-field phone">
                     <label for="phone">Телефон</label>
-                    <input type="tel" name="phone" id="phone">
+                    <svg class="svg-icon" width="12px" height="12px">
+                        <use href="./images/icons.svg#icon-phone"></use>
+                    </svg>
+                    <input class="input" type="tel" name="phone" id="phone">
                 </div>
 
-                <div class="form-field">
+                <div class="form-field email">
                     <label for="mail">Почта</label>
-                    <input type="email" name="mail" id="mail">
+                    <svg class="svg-icon" width="12px" height="12px">
+                        <use href="./images/icons.svg#icon-email"></use>
+                    </svg>
+                    <input class="input" type="email" name="mail" id="mail">
                 </div>
 
-                <div class="form-field">
+                <div class="form-field comment">
                     <label for="comment">Комментарий</label>
-                    <textarea name="comment" rows="10" id="comment" placeholder="Введите текст"></textarea>
+                    <textarea class="textarea" name="comment" rows="10" id="comment"
+                        placeholder="Введите текст"></textarea>
                 </div>
 
-                <div>
-                    <input type="checkbox" name="policy" value="" id="policy">
+                <div class="check">
+                    <input class="checkbox" type="checkbox" name="policy" value="" id="policy">
                     <label for="policy">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
                 </div>
                 <button class="submit" type="submit">Отправить</button>
