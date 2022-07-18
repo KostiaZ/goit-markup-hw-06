@@ -396,7 +396,12 @@
                     <textarea class="textarea-input" name="comment" id="comment" placeholder="Введите текст"></textarea>
                 </div>
                 <div class="policy">
-                    <input type="checkbox" id="policy">
+                    <div class="check-control">
+                        <input type="checkbox" id="policy" class="checkbox visually-hidden">
+                        <svg width="16" height="15" class="icon-policy" aria-hidden="true">
+                            <use href="./images/icons.svg#icon-check"></use>
+                        </svg>
+                    </div>
                     <label for="policy" class="policy-input">Соглашаюсь с рассылкой и принимаю <a href="">Условия
                             договора</a></label>
                     </input>
