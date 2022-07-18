@@ -976,6 +976,7 @@ min-width: 231px;
 .policy {
     display: flex;
     align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -987,9 +988,9 @@ min-width: 231px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 15px;
+    width: 16px;
     height: 15px;
-    border: 2px solid black;
+    border: 2px solid #212121;
     border-radius: 2px;
 }
 
