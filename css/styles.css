@@ -1009,12 +1009,19 @@ min-width: 231px;
 }
 
 .policy-input{
+    display: flex;
+    align-items: center;
+    justify-content: center
     margin-left: 7px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
 }
 
 .terms {
+    padding-left: 7px;
+}
+
+.terms-link {
     color: var(--accent);
 }
 
